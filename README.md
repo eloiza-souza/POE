@@ -4,6 +4,26 @@
 ## O que é Programação Orientada a Eventos? 🤔
 A Programação Orientada a Eventos (POE) é um paradigma de programação onde o fluxo do programa é determinado por eventos, como cliques de mouse, pressionamento de teclas ou mensagens de sistemas. Em Java, esse paradigma é amplamente utilizado em interfaces gráficas (GUI) e sistemas reativos.
 
+## Conceitos Fundamentais 📒
+
+1) **Eventos**: São ações ou ocorrências que podem ser detectadas pelo programa. Exemplos incluem:
+- Um clique em um botão.
+- A chegada de uma mensagem em um sistema de mensagens.
+- Uma alteração em um arquivo ou banco de dados.
+
+2) **Listeners** (Ouvintes): São objetos ou métodos que "ouvem" os eventos e executam uma ação quando o evento ocorre. Eles são registrados para escutar eventos específicos.
+
+
+3) **Disparadores de Eventos** (Event Emitters): São os componentes que geram ou disparam os eventos. 
+
+    Por exemplo, um botão em uma interface gráfica pode disparar um evento de clique.
+
+
+4) **Callback**: É o código que será executado quando o evento ocorrer. Geralmente, é uma função ou método que é passado como argumento para o listener.
+
+
+5) **Loop de Eventos**: É um mecanismo que monitora continuamente os eventos e os despacha para os listeners apropriados.
+
 ## Como funciona? ⚙️
 A POE em Java opera com base em três componentes principais:
 1. **Fonte do Evento**: O objeto que gera o evento (ex.: um botão sendo clicado).
@@ -48,15 +68,6 @@ public class ExemploPOE {
     }
 }
 ```
-
-## Mapas Mentais 🧠
-### Estrutura da POE em Java:
-- **Fonte do Evento**
-  - Exemplo: Botão, Campo de Texto, Janela.
-- **Listener**
-  - Interface que escuta eventos (ex.: `ActionListener`, `MouseListener`).
-- **Manipulador de Eventos**
-  - Código que responde ao evento.
 
 ### Exemplos de Listeners:
 - `ActionListener`: Para ações como cliques de botão.
