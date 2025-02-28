@@ -50,12 +50,11 @@ public class ExemploPOE {
 - `MouseListener`: Para eventos de mouse (ex.: clique, movimento).
 - `KeyListener`: Para eventos de teclado.
 
-## Links para Exploração Futura 🔗
-- [Como criar interfaces gráficas com Swing](#Swing.md)
-- [Diferença entre Listeners e Observers](#)
-- [Eventos personalizados em Java](#)
-- [Programação Reativa com Java](#)
+## Links  🔗
+- [Como criar interfaces gráficas com Swing](Swing.md)
+- [Diferença entre Listeners e Observers](ListenerObserver.md)
+
 
 ## Conclusão ✅
-A Programação Orientada a Eventos é essencial para criar aplicações interativas e dinâmicas. Com Java, você pode implementar facilmente esse paradigma utilizando as ferramentas e interfaces fornecidas pela linguagem. Explore os exemplos e pratique para dominar o conceito! 🚀
+A Programação Orientada a Eventos é essencial para criar aplicações interativas e dinâmicas. Com Java, você pode implementar facilmente esse paradigma utilizando as ferramentas e interfaces fornecidas pela linguagem. 🚀
 
